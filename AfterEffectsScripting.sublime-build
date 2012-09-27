@@ -1,6 +1,6 @@
 {
   "cmd": [
-  "cp $file_name '/Applications/Adobe After Effects CS6/Scripts/User/${file_name}'"
+  "cp $file_name '/Applications/Adobe After Effects CS6/Scripts/${file_name}'"
   ],
   "shell": true
 }
