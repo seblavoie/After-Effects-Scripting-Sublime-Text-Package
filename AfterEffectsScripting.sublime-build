@@ -1,6 +1,6 @@
 {
   "cmd": [
-  "cp $file_name '/Applications/Adobe After Effects CS6/Scripts/${file_name}'"
+  "sh '${packages}/AfterEffects/build.sh' $file_extension $file_name"
   ],
   "shell": true
 }
