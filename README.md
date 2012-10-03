@@ -8,3 +8,4 @@ The build system will copy your current file in the defined path.
 
 ## Todos
 - Create afterEffectScripting.tmLanguage
+- Add windows support
