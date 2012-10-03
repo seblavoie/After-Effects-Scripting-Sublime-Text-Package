@@ -4,14 +4,14 @@ version="CS6";
 
 case "$file_name" in
 "PresetEffects.xml")
-  echo "Compiled ${file_name} to /Applications/Adobe After Effects ${version}/Adobe After Effects ${version}.app/Contents/Resources/ with success!"
+  echo "Successfully compiled ${file_name} to /Applications/Adobe After Effects ${version}/Adobe After Effects ${version}.app/Contents/Resources/${file_name}"
   cp $file_name "/Applications/Adobe After Effects ${version}/Adobe After Effects ${version}.app/Contents/Resources/${file_name}"
   ;;
 esac
 
 case "$file_extension" in 
 "jsx")
-  echo "Compiled to /Applications/Adobe After Effects ${version}/Scripts/User/${file_name} with success!";
+  echo "Successfully compiled ${file_name} to /Applications/Adobe After Effects ${version}/Scripts/User/${file_name}";
   cp $file_name "/Applications/Adobe After Effects ${version}/Scripts/User/${file_name}"
   ;;
 esac
