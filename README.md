@@ -1,4 +1,4 @@
-After-Effects-Scripting-Sublime-Text-Package
+After Effects Scripting Sublime Text 2 Package
 ============================================
 
 Sublime Text 2 package for After Effects. 
