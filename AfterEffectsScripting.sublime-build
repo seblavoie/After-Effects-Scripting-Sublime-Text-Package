@@ -5,6 +5,6 @@
   "shell": true,
   "windows": 
   {
-    "cmd": ["build.bat $file_name"]
+    "cmd": ["build.bat $file_name"],
   }
 }
