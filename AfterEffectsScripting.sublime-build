@@ -1,6 +1,10 @@
 {
   "cmd": [
-  "sh '${packages}/AfterEffects/build.sh' $file_extension $file_name"
+  "sh '${packages}/AfterEffects/build.sh' $file_name"
   ],
-  "shell": true
+  "shell": true,
+  "windows": 
+  {
+    "cmd": ["build.bat $file_name"]
+  }
 }
