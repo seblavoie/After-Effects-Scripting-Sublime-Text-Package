@@ -4,7 +4,6 @@ version="CS6";
 base_path="/Applications";
 full_path="${base_path}/Adobe After Effects ${version}/Scripts/User";
 
-
 # Copying built file to script folder
 cp $file_name "${full_path}/${file_name}";
 
