@@ -1,5 +1,5 @@
 --set theFile to POSIX path of (get the clipboard)
-set theFile to POSIX path of ("Users:sebastienlavoie:Dropbox:Zextras:Global:Animation:After-Effects:Code:Scripts:testScript.jsx")
+set theFile to POSIX path of ("path-to-file/file.jsx")
 open for access theFile
 set fileContents to (read theFile)
 close access theFile
