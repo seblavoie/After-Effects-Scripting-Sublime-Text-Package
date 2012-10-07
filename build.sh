@@ -8,7 +8,7 @@ full_path="${base_path}/Adobe After Effects ${version}/Scripts/User";
 # Copying built file to script folder
 cp $file_name "${full_path}/${file_name}";
 
-# Arguments to Appllescript file not working. Using clipboard instead.
+# Arguments to Applescript file not working. Using clipboard instead.
 echo "${full_path}/${file_name}" | pbcopy
 
 # Running appleScript file
