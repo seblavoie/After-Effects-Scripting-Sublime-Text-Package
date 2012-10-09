@@ -5,6 +5,7 @@
   "shell": true,
   "windows": 
   {
-    "cmd": ["build.bat $file_name"]
+    "cmd": ["${packages}\\AfterEffects\\build.bat $file_name"],
+    "encoding": "cp850"
   }
 }
