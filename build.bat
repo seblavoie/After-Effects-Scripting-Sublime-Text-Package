@@ -1,14 +1,14 @@
-echo file_name=%1%
-echo file_path=%2%
-
 @echo off 
 set file_name=%1%
 set file_path=%2%
 set version=CS5.5
-set full_path=c:\Program Files\Adobe\Adobe After Effects %version%\Support Files\Scripts\User
+set ae_path=c:\Program Files\Adobe\Adobe After Effects %version%
+set full_path=%ae_path%\Support Files\Scripts\User
 
 
-@echo on
 cd "%file_path%"
 copy "%file_name%" "%full_path%\%file_name%"
-echo "Successfully compiled %file_name% to %full_path%\%file_name%"
+cd "%ae_path%"
+cd "Support Files"
+
+AfterFX.exe -r %file_path%\%file_name%
