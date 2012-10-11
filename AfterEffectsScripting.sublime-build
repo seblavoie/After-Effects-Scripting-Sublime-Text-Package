@@ -1,6 +1,6 @@
 {
   "cmd": [
-  "sh '${packages}/AfterEffects/build.sh' $file_name $packages; osascript '${packages}/AfterEffects/run.scpt' $file_name"
+  "sh '${packages}/AfterEffects/build.sh' $file_name && osascript '${packages}/AfterEffects/run.scpt' $file_name"
   ],
   "shell": true,
   "windows": 

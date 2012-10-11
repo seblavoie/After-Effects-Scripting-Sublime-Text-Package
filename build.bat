@@ -3,7 +3,8 @@ set file_name=%1%
 set file_path=%2%
 set version=CS5.5
 set ae_path=c:\Program Files\Adobe\Adobe After Effects %version%
-set full_path=%ae_path%\Support Files\Scripts\User
+set subfolder=\User
+set full_path=%ae_path%\Support Files\Scripts%subfolder%
 
 
 cd "%file_path%"

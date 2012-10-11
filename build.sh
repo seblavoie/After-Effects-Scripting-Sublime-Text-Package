@@ -1,8 +1,8 @@
 file_name=$1;
-_packages=$2;
 version="CS6";
 base_path="/Applications";
-full_path="${base_path}/Adobe After Effects ${version}/Scripts/User";
+subfolder="/User"
+full_path="${base_path}/Adobe After Effects ${version}/Scripts";
 
 # Copying built file to script folder
 cp $file_name "${full_path}/${file_name}";
