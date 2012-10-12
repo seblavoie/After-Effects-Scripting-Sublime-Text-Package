@@ -14,8 +14,14 @@ set ae_scripts_folder_path=%ae_folder_path%\Support Files\Scripts\%subfolder%
 
 
 cd "%file_path%"
-copy "%file_name%" "%ae_scripts_folder_path%\%file_name%"
-cd "%ae_folder_path%"
-cd "Support Files"
 
-AfterFX.exe -r %file_path%\%file_name%
+:: Copying script to Scripts folder
+copy "%file_name%" "%ae_scripts_folder_path%\%file_name%"
+
+cd "%ae_folder_path%\Support Files"
+
+:: Running script in After Effect
+AfterFX -r "%ae_scripts_folder_path%\%file_name%"
+
+:: Printing happy feedback in the console
+echo "Successfully compiled %file_name% to %full_path%\%file_name%";
