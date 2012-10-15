@@ -11,6 +11,7 @@ on run arg
 
   tell application "Adobe After Effects CS6"
     DoScript fileContents
+    activate
   end tell
 
 end run
