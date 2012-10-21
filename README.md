@@ -16,18 +16,18 @@ Download and unzip in your Sublime Text 2 packages folder.
 
 The "Packages" directory is located at:
 
-OS X
+- OS X
 
     ~/Library/Application Support/Sublime Text 2
 
-Linux
+- Linux
 
     ~/.config/sublime-text-2/Packages/
 
-Windows
+- Windows
 
     %APPDATA%/Sublime Text 2/Packages/
 
 ## Usage
 
-Open Sublime Text 2 and go Tools > Build System > AfterEffectScripting` and build with `CMD + B` (OS X) `CTRL + B` (Windows)
+Open Sublime Text 2 and go `Tools > Build System > AfterEffectScripting` and build with `⌘ + B` (OS X) `CTRL + B` (Windows)
