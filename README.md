@@ -18,7 +18,8 @@ The build system will :
 
 ### With zip file
 
-Download and unzip in your Sublime Text 2 packages folder and rename the folder to `AfterEffects`.
+- Download and unzip in your Sublime Text 2 packages folder.
+- Rename the folder to `AfterEffects`.
 
 The "Packages" directory is located at:
 
