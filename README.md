@@ -12,8 +12,13 @@ The build system will :
 
 ## Installation
 
-Download and unzip in your Sublime Text 2 packages folder and rename the folder to `AfterEffects`.
+### Git clone
 
+`git clone https://github.com/seblavoie/After-Effects-Scripting-Sublime-Text-Package.git AfterEffects`
+
+### With zip file
+
+Download and unzip in your Sublime Text 2 packages folder and rename the folder to `AfterEffects`.
 
 The "Packages" directory is located at:
 
