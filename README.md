@@ -29,7 +29,7 @@ The "Packages" directory is located at:
 
   <pre>%APPDATA%/Sublime Text 2/Packages/</pre>
 
-2. Rename the folder to AfterEffects.
+2. Rename the folder to `AfterEffects`.
 
 ## Usage
 
