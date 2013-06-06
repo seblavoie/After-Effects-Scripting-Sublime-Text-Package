@@ -14,4 +14,4 @@ full_path="/${base_path}/Adobe After Effects ${version}/Scripts";
 cp $file_name "${full_path}/${file_name%.*}.jsx";
 
 # Printing happy feedback in the console
-echo "Successfully compiled ${file_name} to ${full_path}/${file_name}";
+echo "Successfully compiled ${file_name} to ${full_path}/${file_name%.*}.jsx";
