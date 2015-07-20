@@ -38,4 +38,5 @@ The "Packages" directory is located at:
 
 ## Usage
 
-Open Sublime Text 2 and go `Tools > Build System > AfterEffectScripting` and build with `⌘ + B` (OS X) `CTRL + B` (Windows)
+1. Change the After Effects version according to your needs in `build.sh`, `build.bat`, `run.scpt`.
+2. Open Sublime Text 2 and go `Tools > Build System > AfterEffectScripting` and build with `⌘ + B` (OS X) `CTRL + B` (Windows)
