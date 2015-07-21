@@ -12,10 +12,6 @@ The build system will :
 
 ## Installation
 
-### Git clone
-
-`git clone https://github.com/seblavoie/After-Effects-Scripting-Sublime-Text-Package.git AfterEffects`
-
 ### With zip file
 
 - Download and unzip in your Sublime Text packages folder.
