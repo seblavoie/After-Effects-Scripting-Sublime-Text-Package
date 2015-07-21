@@ -2,7 +2,7 @@
 file_name=$1;
 
 # Your CS version
-version="CS6";
+version="CC 2015";
 
 # Adobe After Effects folder location
 base_path="Applications";

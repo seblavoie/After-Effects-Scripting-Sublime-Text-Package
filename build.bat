@@ -1,10 +1,10 @@
-@echo off 
+@echo off
 :: Renaming arguments
 set file_name=%1%
 set file_path=%2%
 
 :: Change this accordingly to your CS version
-set version=CS6
+set version="CC 2015"
 
 :: Adobe After Effects folder location
 set base_path=c:\Program Files\Adobe
