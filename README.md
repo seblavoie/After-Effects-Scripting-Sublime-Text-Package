@@ -1,7 +1,7 @@
-After Effects Scripting Sublime Text 2 Package
+After Effects Scripting Sublime Text Package
 ============================================
 
-Sublime Text 2 package for After Effects. 
+Sublime Text package for After Effects. 
 
 ## Build System
 
@@ -18,14 +18,14 @@ The build system will :
 
 ### With zip file
 
-- Download and unzip in your Sublime Text 2 packages folder.
+- Download and unzip in your Sublime Text packages folder.
 - Rename the folder to `AfterEffects`.
 
 The "Packages" directory is located at:
 
 - OS X
 
-  <pre>~/Library/Application Support/Sublime Text 2/Packages</pre>
+  <pre>~/Library/Application Support/Sublime Text [version]/Packages</pre>
 
 - Linux
 
@@ -33,10 +33,9 @@ The "Packages" directory is located at:
 
 - Windows
 
-  <pre>%APPDATA%/Sublime Text 2/Packages/</pre>
+  <pre>%APPDATA%/Sublime Text [version]/Packages/</pre>
 
 
 ## Usage
 
-1. Change the After Effects version according to your needs in `build.sh`, `build.bat` and `run.scpt`.
-2. Open Sublime Text 2 and go `Tools > Build System > AfterEffectScripting` and build with `⌘ + B` (OS X) `CTRL + B` (Windows)
+Open Sublime Text and go `Tools > Build System > AfterEffectScripting` and build with `⌘ + B` (OS X) `CTRL + B` (Windows)
