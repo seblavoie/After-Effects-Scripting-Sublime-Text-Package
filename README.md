@@ -34,4 +34,6 @@ The "Packages" directory is located at:
 
 ## Usage
 
-Open Sublime Text and go `Tools > Build System > AfterEffectScripting` and build with `⌘ + B` (OS X) `CTRL + B` (Windows)
+1. Default version of After Effects is set to CC 2015. If you're using an older version, just change the version in `build.sh` on OS X or in `build.bat` on Windows.
+2. On Windows 8 or Windows 10, you will need to run Sublime Text as administrator.
+3. Open Sublime Text and go `Tools > Build System > AfterEffectScripting` and build with `⌘ + B` (OS X) `CTRL + B` (Windows).
