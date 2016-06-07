@@ -3,11 +3,11 @@
 set file_name=%1%
 set file_path=%2%
 
-:: Change this accordingly to your CS version
-set version="CC 2015"
+:: Change this accordingly to your After Effects version
+set version=CC 2015
 
 :: Adobe After Effects folder location
-set base_path=c:\Program Files\Adobe
+set base_path=C:\Program Files\Adobe
 set ae_folder_path=%base_path%\Adobe After Effects %version%
 set ae_scripts_folder_path=%ae_folder_path%\Support Files\Scripts
 
@@ -23,4 +23,4 @@ cd "%ae_folder_path%\Support Files"
 AfterFX -r "%ae_scripts_folder_path%\%file_name%"
 
 :: Printing happy feedback in the console
-echo "Successfully compiled %file_name% to %full_path%\%file_name%";
+echo "Successfully compiled %file_name% to %ae_scripts_folder_path%\%file_name%";

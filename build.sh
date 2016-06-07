@@ -1,7 +1,7 @@
 # Renaming argument
 file_name=$1;
 
-# Your CS version
+# Your After Effects version
 version="CC 2015";
 
 # Adobe After Effects folder location
